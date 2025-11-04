@@ -17,7 +17,7 @@ This request retrieves ticket data from the server.
 The program sends a PATCH request to the API endpoint:
 https://ticket-guru-ticketguru-postgres.2.rahtiapp.fi/tickets/${ticket.ticketid}
 
-The request retrieves a specific ticket by its ticketid and updates its data to mark the ticket as used (redeemed: true).
+The request retrieves a specific ticket by its ticketCode and updates its data to mark the ticket as used (redeemed: true).
 It uses Basic Authentication and sends the update in JSON format.
 
     try {

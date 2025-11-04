@@ -32,3 +32,8 @@ It uses Basic Authentication and sends the update in JSON format.
           body: JSON.stringify({ redeemed: true })
         }
       );
+  
+## Environment Variables
+
+This application requires user credentials stored in a .env file.
+The program will only work if valid credentials are provided.
